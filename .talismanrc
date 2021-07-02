@@ -1,0 +1,5 @@
+fileignoreconfig:
+- filename: env-config.js
+  checksum: baf232073006fccb06f77c799bb33291000bda713930d8c5be8ff0698b2ffa3b
+- filename: package-lock.json
+  checksum: 3b597d9f41ec0beaaa71d8c449df8f88817400829ef4e0d5bb70d8d8bef020c2
