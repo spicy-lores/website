@@ -1,0 +1,40 @@
+body {
+    font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    background-color: #D0CBC3;
+}
+
+#__next {
+    height: 100%;
+    width: 100%;
+}
+
+.cover-image {
+    background-image: url(../img/coming_soon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+@media (max-width: 481px) and (min-width: 100px) {
+    .cover-image {
+        background-position: -50rem;
+    }
+}
+
+@media (max-width: 540px) and (min-width: 481px) {
+    .cover-image {
+        background-position: -40rem
+    }
+}
+
+@media (max-width: 768px) and (min-width: 541px) {
+    .cover-image {
+        background-position: -30rem;
+    }
+}
